@@ -1,0 +1,42 @@
+table 			      { 
+  border-spacing: 2; 
+  border-collapse: collapse; 
+  background:#04bd70;
+  border-radius:5px;
+  overflow:hidden;
+  max-width:800px; 
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  color: whitesmoke;
+  border-color: #04bd70;
+  
+  *               { position:relative }
+  
+  td,th           {
+      background:#04bd70;
+      padding-left:8px
+  }
+
+  thead tr        { 
+    height:60px;
+    background:#04bd70;
+    font-size:16px;
+  }
+  
+  tbody tr        { height:70px; border-bottom:1px solid white;
+    &:last-child  { border:0; }
+  }
+  
+ 	td,th 					{ text-align:left;           
+		&.l 					{ text-align:right }
+		&.c 					{ text-align:center }
+		&.r 					{ text-align:center }
+	}
+}
+
+
+blockquote {
+  color: #04bd70;
+  text-align:center;
+}
